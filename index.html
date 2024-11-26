@@ -1,45 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style/style.css">
+    <title>Магазин Одежды - NOZA</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header class="header">
-        <nav class="header__nav">
-            <div class="container">
-                <div class="header__nav-content">
-                    <a href="" class="header__nav-logo"><img src="images/logo.png" alt=""></a>
-                    <ul class="header__nav-list">
-                        <li><a href="" class="header__nav-link">Кроссовки</a></li>
-                        <li><a href="" class="header__nav-link">Кеды</a></li>
-                        <li><a href="" class="header__nav-link">Футболки</a></li>
-                        <li><a href="" class="header__nav-link">Шорты</a></li>
-                        <li><a href="" class="header__nav-link">Майки</a></li>
-                        <li><a href="" class="header__nav-link">Олимпийки</a></li>
-                        <li><a href="" class="header__nav-link">Толстовки</a></li>
-                    </ul>
-                </div>
+    <header>
+        <div class="logo">NOZA</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#catalog">Каталог</a></li>
+                <li><a href="#about">О компании</a></li>
+                <li><a href="#features">Наши преимущества</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </nav>
-        <div class="header__content">
-            <h1 class="header__content-title">NIKE</h1>
-            <p class="header__content-description">Крутые кроссовки от <span class="header__content-span">NIKE</span> для вас   </p>
-        </div>
     </header>
-    
-    <main class="main">
-        <h2>Lorem, ipsum.</h2>
+
+    <div class="hero">
+        <h1>Стиль начинается с NOZA</h1>
+        <p>Откройте для себя мир моды и качества.</p>
+    </div>
+
+    <main>
+        <section id="catalog" class="catalog">
+            <h2>Наш каталог</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="aksesuar.jpg" alt="Аксессуары">
+                    <h3>Аксессуары</h3>
+                    <p>Элегантные детали для вашего стиля.</p>
+                </div>
+                <div class="product">
+                    <img src="abstract-blurred-background-interior-clothing-store-shopping-mall_44943-543.avif" alt="Одежда">
+                    <h3>Одежда</h3>
+                    <p>Модная коллекция для любого сезона.</p>
+                </div>
+                <div class="product">
+                    <img src="Без названия (1).jpeg" alt="Обувь">
+                    <h3>Обувь</h3>
+                    <p>Комфорт и стиль на каждый день.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>О нашей компании</h2>
+            <p>Мы более 10 лет создаем одежду, которая подчеркивает индивидуальность и стиль. Наша команда выбирает только лучшие материалы и дизайн.</p>
+            <img src="Без названия.jpeg" alt="Наша история">
+        </section>
+
+        <section id="features" class="features">
+            <h2>Наши преимущества</h2>
+            <ul>
+                <li>Высокое качество материалов</li>
+                <li>Доступные цены</li>
+                <li>Быстрая доставка</li>
+                <li>Индивидуальный подход</li>
+            </ul>
+        </section>
     </main>
-    <footer class="footer">
-        <a href="nike"></a>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit similique quod vel deserunt porro, possimus magnam tempora ad esse doloremque nam voluptatum et dolores hic minima! Vel optio suscipit officiis quas! Suscipit delectus omnis commodi amet nemo, nostrum, impedit magnam ut repudiandae eaque sapiente libero atque dolore alias reprehenderit autem officiis obcaecati ab aspernatur aliquam! Laudantium reiciendis repellat odit vero mollitia molestias. Aspernatur reiciendis ratione quos quo eveniet qui voluptates sint ad enim ducimus, obcaecati explicabo possimus sunt molestiae? Tempore voluptatem magnam omnis quibusdam dolore. Nulla facilis dolor ipsam voluptas, voluptate hic odit quam, ut, qui nihil quo suscipit? Porro?</p>
+
+    <footer>
+        <div class="footer-socials">
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            <a href="https://www.twitter.com" target="_blank">Twitter</a>
+        </div>
+        <p>© 2024 NOZA. Все права защищены.</p>
     </footer>
-</body>     
-     
-</html>     
+
+    <script src="script.js"></script>
+</body>
+</html>
